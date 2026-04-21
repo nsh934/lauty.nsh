@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Perfil</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 60px;
+      animation: aparecer 1s ease;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: block;
+      width: 250px;
+      margin: 15px auto;
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      color: white;
+    }
+
+    .instagram {
+      background-color: #E1306C;
+    }
+
+    .whatsapp {
+      background-color: #25D366;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- TU IMAGEN -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." alt="foto">
+
+    <h1>Lauty</h1>
+    <p>Seguime o contactame ??</p>
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/lauty_nsh_?igsh=MXBndTZ4ZXV6cm93dg==" target="_blank" class="btn instagram">
+      Instagram
+    </a>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/541126058075" target="_blank" class="btn whatsapp">
+      WhatsApp
+    </a>
+
+  </div>
+
+</body>
+</html>
